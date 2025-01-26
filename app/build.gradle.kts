@@ -120,4 +120,8 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
     implementation ("androidx.room:room-paging:2.6.1")
+
+    //OkHttp
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+
 }

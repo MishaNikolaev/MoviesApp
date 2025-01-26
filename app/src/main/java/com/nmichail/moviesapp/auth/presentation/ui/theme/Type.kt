@@ -1,4 +1,4 @@
-package com.nmichail.moviesapp.ui.theme
+package com.nmichail.moviesapp.auth.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
