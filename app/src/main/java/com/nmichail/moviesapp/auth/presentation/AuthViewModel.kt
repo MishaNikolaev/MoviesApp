@@ -77,4 +77,11 @@ class AuthViewModel @Inject constructor(
             }
         }
     }
+
+    fun clearSession() {
+        viewModelScope.launch {
+            authLocalRepository.clearSession()
+            _state.value = AuthState.Idle
+        }
+    }
 }

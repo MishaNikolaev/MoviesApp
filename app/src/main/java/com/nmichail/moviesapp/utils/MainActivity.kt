@@ -1,18 +1,12 @@
-package com.nmichail.moviesapp.main.presentation
+package com.nmichail.moviesapp.utils
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.nmichail.moviesapp.auth.presentation.AuthScreen
-import com.nmichail.moviesapp.main.presentation.ui.theme.MoviesAppTheme
+import com.nmichail.moviesapp.utils.navigation.NavGraph
+import com.nmichail.moviesapp.utils.ui.theme.MoviesAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MoviesAppTheme {
-                AuthScreen()
+                NavGraph()
             }
         }
     }

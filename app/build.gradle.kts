@@ -68,7 +68,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
+    implementation ("androidx.compose.foundation:foundation:1.7.6")
+    implementation("com.google.accompanist:accompanist-pager:0.32.0")
     implementation(libs.navigation.compose)
     implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
 

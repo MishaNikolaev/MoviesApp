@@ -1,4 +1,4 @@
-package com.nmichail.moviesapp.main.presentation.ui.theme
+package com.nmichail.moviesapp.utils.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

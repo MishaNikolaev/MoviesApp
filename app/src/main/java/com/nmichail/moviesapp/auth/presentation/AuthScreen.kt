@@ -38,7 +38,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.nmichail.moviesapp.R
 
 @Composable
-fun AuthScreen(viewModel: AuthViewModel = hiltViewModel()) {
+fun AuthScreen(viewModel: AuthViewModel = hiltViewModel(),
+               onSessionCreated: () -> Unit) {
     val state by viewModel.state.collectAsState()
 
     var email by remember { mutableStateOf("") }
@@ -128,21 +129,11 @@ fun AuthScreen(viewModel: AuthViewModel = hiltViewModel()) {
                     color = Color.White
                 )
             }
-            is AuthState.GuestSessionCreated -> {
-                Text(
-                    text = "Guest session created!",
-                    color = Color.White,
-                    fontSize = 16.sp,
-                    modifier = Modifier.align(Alignment.Center)
-                )
+            is AuthState.GuestSessionCreated, is AuthState.LoginSuccess -> {
+                onSessionCreated()
             }
             is AuthState.LoginSuccess -> {
-                Text(
-                    text = "Login Successful!",
-                    color = Color.White,
-                    fontSize = 16.sp,
-                    modifier = Modifier.align(Alignment.Center)
-                )
+                onSessionCreated()
             }
             is AuthState.Error -> {
                 Text(
