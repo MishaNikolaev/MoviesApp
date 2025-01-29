@@ -8,6 +8,7 @@ import com.nmichail.moviesapp.main.data.repository.MovieRepositoryImpl
 import com.nmichail.moviesapp.main.domain.repository.MovieRepository
 import com.nmichail.moviesapp.main.domain.usecases.GetCachedMoviesUseCase
 import com.nmichail.moviesapp.main.domain.usecases.GetMoviesUseCase
+import com.nmichail.moviesapp.main_details.data.remote.MovieDetailsApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -66,4 +67,11 @@ object MainModule {
     fun provideGetCachedMoviesUseCase(repository: MovieRepository): GetCachedMoviesUseCase {
         return GetCachedMoviesUseCase(repository)
     }
+
+    @Provides
+    @Singleton
+    fun provideMovieApiServiceDetails(retrofit: Retrofit): MovieDetailsApi {
+        return retrofit.create(MovieDetailsApi::class.java)
+    }
+
 }

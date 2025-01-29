@@ -125,4 +125,7 @@ dependencies {
     //OkHttp
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
 
+    // Youtube Player
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28")
+
 }
