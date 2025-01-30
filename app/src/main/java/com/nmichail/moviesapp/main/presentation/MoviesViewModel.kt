@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.nmichail.moviesapp.main.domain.repository.MovieRepository
 import com.nmichail.moviesapp.main.domain.usecases.GetCachedMoviesUseCase
 import com.nmichail.moviesapp.main.domain.usecases.GetMoviesUseCase
+import com.nmichail.moviesapp.search.presentation.MoviesUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -81,6 +82,20 @@ class MoviesViewModel @Inject constructor(
                     error = e.localizedMessage
                 )
                 Log.e("MoviesViewModel", "Error loading movies: ${e.localizedMessage}")
+            }
+        }
+    }
+    private val _popularMoviesUiState = MutableStateFlow<MoviesUiState>(MoviesUiState.Idle)
+    val popularMoviesUiState: StateFlow<MoviesUiState> = _popularMoviesUiState
+
+    fun loadPopularMovies() {
+        viewModelScope.launch {
+            _popularMoviesUiState.value = MoviesUiState.Loading
+            try {
+                val movies = getMoviesUseCase("popular", 1)
+                _popularMoviesUiState.value = MoviesUiState.Success(movies)
+            } catch (e: Exception) {
+                _popularMoviesUiState.value = MoviesUiState.Error(e.localizedMessage ?: "An error occurred")
             }
         }
     }

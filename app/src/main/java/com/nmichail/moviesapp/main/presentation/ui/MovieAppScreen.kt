@@ -166,6 +166,6 @@ fun MovieAppScreen(
                 onSeeMoreClick = { onGenreClick(selectedFilter.lowercase().replace(" ", "_")) }
             )
         }
-        Spacer(modifier = Modifier.height(80.dp))
+        Spacer(modifier = Modifier.height(130.dp))
     }
 }

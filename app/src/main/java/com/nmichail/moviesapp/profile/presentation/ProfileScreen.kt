@@ -6,5 +6,5 @@ import androidx.compose.runtime.Composable
 @Composable
 fun ProfileScreen(){
 
-    Text(text = "SearchScreen")
+    Text(text = "ProfileScreen")
 }

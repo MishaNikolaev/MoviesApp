@@ -25,7 +25,6 @@ object MainModule {
 
     private const val BASE_URL = "https://api.themoviedb.org/3/"
     private const val API_KEY = "YOUR_API_KEY"
-
     @Provides
     @Singleton
     fun provideOkHttpClient(): OkHttpClient {
