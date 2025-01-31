@@ -24,7 +24,7 @@ import javax.inject.Singleton
 object MainModule {
 
     private const val BASE_URL = "https://api.themoviedb.org/3/"
-    private const val API_KEY = "YOUR_API_KEY"
+    private const val API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMTg4NjBiOWEyYWM3YTRiOTJiNzBjMmI2Mjg2OGY1ZSIsIm5iZiI6MTczNzkwNDY4MS44NzM5OTk4LCJzdWIiOiI2Nzk2NTIyOTBlMWUwNDg2ZDYyYjA2MjgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.ZvjzQZaPzg_1nJ6yUlsXs914xIiGfV_QXQf9bFEUnoc"
     @Provides
     @Singleton
     fun provideOkHttpClient(): OkHttpClient {

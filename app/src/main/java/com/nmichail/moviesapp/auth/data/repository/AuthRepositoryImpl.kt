@@ -12,7 +12,7 @@ class AuthRepositoryImpl @Inject constructor(
     private val authApi: AuthApi
 ) : AuthRepository {
 
-    private val apiKey = "YOUR_API_KEY"
+    private val apiKey = "218860b9a2ac7a4b92b70c2b62868f5e"
 
     override suspend fun createGuestSession(): GuestSession {
         val response = authApi.createGuestSession(apiKey)
