@@ -13,7 +13,7 @@ Programm stack of project:
 
 # UI 🖥
 
-<img alt="First Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_200019.png" /> <img alt="" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_200053.png" />
+ <img alt="" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_200053.png" />
 <img alt=" Main Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_201835.png" /> <img alt=" Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_201858.png" /> <img alt=" Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202017.png" /> 
 <img alt=" Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202034.png" /> <img alt=" Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202054.png" />
 <img alt=" Listing Pages" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202112.png" /> <img alt=" Detail Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202333.png" />
