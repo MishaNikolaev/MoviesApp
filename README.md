@@ -20,7 +20,7 @@ Programm stack of project:
 <p align="center">
   <img alt="Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_201858.png" />
   <img alt="Detail Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202112.png" />
-  <img alt="Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_201858.png" />
+  <img alt="Search Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202333.png" />
 </p>
 <p align="center">
   <img alt="Another Page" height="450px" src="https://github.com/MishaNikolaev/MoviesApp/blob/master/app/for_readme/Screenshot_20250131_202017.png" />
