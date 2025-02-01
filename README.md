@@ -1,7 +1,7 @@
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Hilt](https://img.shields.io/badge/hilt-%237F52FF.svg?style=for-the-badge&logo=hilt&logoColor=white) ![Hilt](https://img.shields.io/badge/retrofit-ffc000.svg?style=for-the-badge&logo=retrofit&logoColor=white) ![coroutines](https://img.shields.io/badge/coroutines-ff00c0.svg?style=for-the-badge&logo=coroutines&logoColor=white) ![Room](https://img.shields.io/badge/room-3f00ff.svg?style=for-the-badge&logo=coroutines&logoColor=white)  
 # Movies App 
 
-This app allows you to explore information about movies and TV series, watch trailers, search for titles, and discover the latest releases, most popular content, and top-rated movies and shows.
+This app allows you to explore information about movies and TV series, watch trailers, search for titles, and discover the latest releases, most popular content, and top-rated movies and shows. 
 
 Programm stack of project:
 - Dependency injection
