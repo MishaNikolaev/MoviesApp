@@ -3,12 +3,13 @@
 
 This app allows you to explore information about movies and TV series, watch trailers, search for titles, and discover the latest releases, most popular content, and top-rated movies and shows.  
 
-Programm stack of project:
+Program stack of project:
 - Dependency injection
 - Coroutines
 - Room
 - Retrofit
 - MVI pattern
+
 
 
 # UI 🖥
